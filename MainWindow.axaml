@@ -1,0 +1,26 @@
+<Window xmlns="https://github.com/avaloniaui"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        x:Class="BlackJackGUIMac.MainWindow"
+        Title="BlackJack GUI"
+        Width="600" Height="500">
+
+  <DockPanel Margin="10">
+
+    <!-- Buttons at the bottom -->
+    <StackPanel DockPanel.Dock="Bottom" Orientation="Horizontal" Spacing="10">
+      <Button Name="HitButton" Content="Hit" Width="120"/>
+      <Button Name="StandButton" Content="Stand" Width="120"/>
+      <Button Name="NewGameButton" Content="New Game" Width="120"/>
+    </StackPanel>
+
+    <!-- Scrollable Output Window fills the rest -->
+    <ScrollViewer VerticalScrollBarVisibility="Auto">
+      <TextBlock Name="OutputBox"
+                 TextWrapping="Wrap"
+                 Margin="0,0,0,10"/>
+    </ScrollViewer>
+
+  </DockPanel>
+
+</Window>
+
