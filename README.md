@@ -27,7 +27,7 @@ Gameplay: -The player starts with one card from a shuffled deck, and can either 
 -Clicking 'New Game' clears the board for a new round
 
 Screenshot/Recording: macOS GUI
-[Avalonia GUI] image: (Black-Jack-GUI-Mac/BlackJack image.png)
+[Avalonia GUI] image:(https://github.com/winniedel/Black-Jack-GUI-Mac/blob/main/BlackJack%20image.png)
 [Avalonia GUI] recording:(https://www.youtube.com/watch?v=aKFlRVL9OEQ)
 
 
